@@ -16,7 +16,7 @@
 include vendor/pure/configs/pure_phone.mk
 
 # Inherit AOSP device configuration for condor.
-$(call inherit-product, device/motorola/victara/aosp_condor.mk)
+$(call inherit-product, device/motorola/condor/aosp_condor.mk)
 
 WITH_GOOGLE_CAMERA := false
 WITH_GOOGLE_CHROME := false
